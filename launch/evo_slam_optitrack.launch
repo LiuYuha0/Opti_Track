@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="opti_track" name="evo_slam_optitrack_node" type="evo_slam_optitrack" output="screen">
+  </node>
+
+</launch>
