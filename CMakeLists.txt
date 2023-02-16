@@ -163,12 +163,12 @@ add_executable(${PROJECT_NAME}_node src/OptiTrackClient.cpp)
  ${catkin_LIBRARIES} libNatNet.so
  )
 
- #do not use ROS to make
- add_executable(OptiTrackClient_test src/OptiTrackClient_test.cpp)
+# do not use ROS to make
+#  add_executable(OptiTrackClient_test src/OptiTrackClient_test.cpp)
 
- target_link_libraries(OptiTrackClient_test
- libNatNet.so
- )
+#  target_link_libraries(OptiTrackClient_test
+#  libNatNet.so
+#  )
 
  #############
 ## Install ##
